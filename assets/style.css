@@ -1,0 +1,183 @@
+body{
+    background: #dadada;
+}
+hr{
+    margin:4px 0px;
+}
+.wrapper {
+    width: 95%;
+    margin: 0px auto;
+    background: #fff;
+    padding: 0px 3px;
+}
+.wrapper .main{
+    border:1px solid;
+    padding:4px;
+}
+.header{
+    padding:10px;
+    background: pink;
+    margin-bottom: 10px;
+    border: 4px outset #F7B2B2;
+}
+.header-right{
+    float:right;
+}
+.list-accts .current{
+    background: #0066FF;
+    color:#ffffff;
+
+}
+.list-accts .current a{
+    color:#ffffff;
+}
+.list-accts .item{
+    padding: 2px;
+    border-bottom: 1px dotted;
+}
+/*.list-accts .item:nth-child(odd) {
+    background: #dfdfdf;
+}*/
+.list-accts a{
+
+}
+.logging {
+    position: relative;
+}
+.logging .content{
+    background: #636363;
+    color:#fff;
+    font-family: courier new, mono-space;
+    padding:6px;
+    overflow: auto;
+    max-height: 200px;
+    position: relative;
+    min-height: 40px;
+}
+.logging .button-tog a{
+    display: inline-block;
+    cursor: pointer;
+}
+.logging .button-tog{
+    display: inline-block;
+    padding:3px;
+    background: pink;
+    font-weight: bold;
+    position: absolute;
+    z-index: 10;
+    right: 0px;
+    top:0px;
+    color:#660000;
+    font-size: 13px;
+}
+.messages{
+    padding:4px;
+    background: #fff3c2;
+    margin-left: 10px;
+    padding-left: 25px;
+}
+table.hover-table tr:hover{
+    background-color: #ffff99;
+}
+#listfiles_container table tr:hover{
+    background-color: #ffff99;
+}
+.disable-link{
+    text-decoration: line-through;
+
+}
+.list-accts table tr:hover{
+    background-color: #ffff99;
+}
+#all_cp_accts table tr:hover{
+    background-color: #ffff99;
+}
+.inline-form {
+    display: inline-block;
+}
+/*Box home*/
+.hw-box {
+    display: inline-block;
+    background: #dadada;
+    border:1px solid #dadada;
+    width:100px;
+    height:100px;
+    padding: 5px;
+    margin: 5px;
+}
+.hw-box a{
+    width: 100%;
+    height:100%;
+    display:block;
+}
+.cpanel-icon {
+    background: url('images/cpanel-icon.gif') no-repeat 50% 50%;
+}
+.database-icon {
+    background: url('images/database.jpg') no-repeat 50% 50%;
+}
+.ftp-icon {
+    background: url('images/ftp.png') no-repeat 50% 50%;
+}
+.fileman-icon {
+    background: url('images/fileman.jpg') no-repeat 50% 50%;
+}
+.wp-icon {
+    background: url('images/wordpress-icon.png') no-repeat 50% 50%;
+}
+.email-icon {
+    background: url('images/icon_email.gif') no-repeat 50% 50%;
+}
+.svn_subversion-icon{
+    background: url('images/icon_subversion.jpg') no-repeat 50% 50%;
+}
+.hw-ajax-working:before {
+    content: url('images/loading1.gif');
+    /*float:left;*/
+    margin-right:4px;
+}
+.hw-ajax-working-bg {
+    background: url('images/loading1.gif') no-repeat;
+    padding-left: 20px;
+}
+.login-form {
+    padding:10px;
+}
+.toobar {
+    margin:10px 0px;
+}
+.highlight-keyword{
+    background-color: red;
+    color: #fff;
+    font-style: normal;
+}
+.custom-combobox {
+    position: relative;
+    display: inline-block;
+}
+.custom-combobox-toggle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: -1px;
+    padding: 0;
+}
+.custom-combobox-input {
+    margin: 0;
+    padding: 5px 10px;
+}
+.root_acc {
+    background: pink;
+}
+/*hw wp tool*/
+.plugins-list {
+    padding:3px;
+    border: 1px solid #dadada;
+    background: #fafafa;
+}
+/*svn tools*/
+.svn_tools {
+    padding:5px;
+    border:1px solid ;
+    background: #dadada;
+}
